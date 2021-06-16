@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State // 값의 변화를 감지 -> View에 적용
+    private var isActivated: Bool = false
+    
     var body: some View {
     
         HStack{
@@ -16,8 +20,16 @@ struct ContentView: View {
             MyVStackView()
             
         } // HStack
-        .padding(30)
-        .background(Color.yellow)
+        .padding(isActivated ? 50.0 : 10.0)
+        .background(isActivated ? Color.yellow : Color.green)
+        .onTapGesture {
+            print("Click HStack")
+            // Animation
+            withAnimation{
+                self.isActivated.toggle()
+            }
+            
+        }
         
     }
 }

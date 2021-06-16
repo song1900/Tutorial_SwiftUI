@@ -63,12 +63,12 @@
 				F6AA3593267A38250047019B /* AppDelegate.swift */,
 				F6AA3595267A38250047019B /* SceneDelegate.swift */,
 				F6AA3597267A38250047019B /* ContentView.swift */,
+				F6AA35AC267A4A0A0047019B /* MyVStackView.swift */,
 				F6AA359C267A38250047019B /* Assets.xcassets */,
 				F6AA35A1267A38250047019B /* LaunchScreen.storyboard */,
 				F6AA35A4267A38250047019B /* Info.plist */,
 				F6AA3599267A38250047019B /* Tutorial_SwiftUI_01.xcdatamodeld */,
 				F6AA359E267A38250047019B /* Preview Content */,
-				F6AA35AC267A4A0A0047019B /* MyVStackView.swift */,
 			);
 			path = Tutorial_SwiftUI_01;
 			sourceTree = "<group>";
