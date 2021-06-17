@@ -13,23 +13,39 @@ struct ContentView: View {
     private var isActivated: Bool = false
     
     var body: some View {
-    
-        HStack{
-            MyVStackView()
-            MyVStackView()
-            MyVStackView()
-            
-        } // HStack
-        .padding(isActivated ? 50.0 : 10.0)
-        .background(isActivated ? Color.yellow : Color.green)
-        .onTapGesture {
-            print("Click HStack")
-            // Animation
-            withAnimation{
-                self.isActivated.toggle()
+        NavigationView {
+            VStack {
+                HStack{
+                    MyVStackView()
+                    MyVStackView()
+                    MyVStackView()
+                    
+                } // HStack
+                .padding(isActivated ? 50.0 : 10.0)
+                .background(isActivated ? Color.yellow : Color.green)
+                .onTapGesture {
+                    print("Click HStack")
+                    // Animation
+                    withAnimation{
+                        self.isActivated.toggle()
+                    }
+                    
+                } // HStack
+                
+                // Navigation Button
+                NavigationLink(destination: MyTextView() ){
+                    Text("네비게이션")
+                        .fontWeight(.heavy)
+                        .font(.system(size: 40))
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(30)
+                }.padding(.top, 50)
             }
             
-        }
+        } // NavigationView
+
         
     }
 }

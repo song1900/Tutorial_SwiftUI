@@ -15,6 +15,7 @@
 		F6AA35A0267A38250047019B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AA359F267A38250047019B /* Preview Assets.xcassets */; };
 		F6AA35A3267A38250047019B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AA35A1267A38250047019B /* LaunchScreen.storyboard */; };
 		F6AA35AD267A4A0A0047019B /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA35AC267A4A0A0047019B /* MyVStackView.swift */; };
+		F6AA35AF267B94BC0047019B /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA35AE267B94BC0047019B /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F6AA35A2267A38250047019B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6AA35A4267A38250047019B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6AA35AC267A4A0A0047019B /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		F6AA35AE267B94BC0047019B /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				F6AA3595267A38250047019B /* SceneDelegate.swift */,
 				F6AA3597267A38250047019B /* ContentView.swift */,
 				F6AA35AC267A4A0A0047019B /* MyVStackView.swift */,
+				F6AA35AE267B94BC0047019B /* MyTextView.swift */,
 				F6AA359C267A38250047019B /* Assets.xcassets */,
 				F6AA35A1267A38250047019B /* LaunchScreen.storyboard */,
 				F6AA35A4267A38250047019B /* Info.plist */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6AA359B267A38250047019B /* Tutorial_SwiftUI_01.xcdatamodeld in Sources */,
+				F6AA35AF267B94BC0047019B /* MyTextView.swift in Sources */,
 				F6AA35AD267A4A0A0047019B /* MyVStackView.swift in Sources */,
 				F6AA3594267A38250047019B /* AppDelegate.swift in Sources */,
 				F6AA3596267A38250047019B /* SceneDelegate.swift in Sources */,
