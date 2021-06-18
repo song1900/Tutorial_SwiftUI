@@ -14,6 +14,7 @@
 		F6AA35C6267C3BD10047019B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AA35C5267C3BD10047019B /* Assets.xcassets */; };
 		F6AA35C9267C3BD10047019B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AA35C8267C3BD10047019B /* Preview Assets.xcassets */; };
 		F6AA35CC267C3BD10047019B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AA35CA267C3BD10047019B /* LaunchScreen.storyboard */; };
+		F6AA35D4267C3CC20047019B /* MyWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA35D3267C3CC20047019B /* MyWebview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F6AA35C8267C3BD10047019B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6AA35CB267C3BD10047019B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6AA35CD267C3BD10047019B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AA35D3267C3CC20047019B /* MyWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F6AA35CD267C3BD10047019B /* Info.plist */,
 				F6AA35C2267C3BCE0047019B /* Tutorial_SwiftUI_Webview.xcdatamodeld */,
 				F6AA35C7267C3BD10047019B /* Preview Content */,
+				F6AA35D3267C3CC20047019B /* MyWebview.swift */,
 			);
 			path = Tutorial_SwiftUI_Webview;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				F6AA35BF267C3BCE0047019B /* SceneDelegate.swift in Sources */,
 				F6AA35C1267C3BCE0047019B /* ContentView.swift in Sources */,
 				F6AA35C4267C3BCE0047019B /* Tutorial_SwiftUI_Webview.xcdatamodeld in Sources */,
+				F6AA35D4267C3CC20047019B /* MyWebview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
