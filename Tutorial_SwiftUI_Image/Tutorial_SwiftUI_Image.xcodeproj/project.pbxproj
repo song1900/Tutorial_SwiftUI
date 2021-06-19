@@ -13,6 +13,7 @@
 		F695CD10267E110800D16096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695CD0F267E110800D16096 /* Assets.xcassets */; };
 		F695CD13267E110800D16096 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695CD12267E110800D16096 /* Preview Assets.xcassets */; };
 		F695CD16267E110800D16096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F695CD14267E110800D16096 /* LaunchScreen.storyboard */; };
+		F695CD1E267E118D00D16096 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695CD1D267E118D00D16096 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F695CD12267E110800D16096 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F695CD15267E110800D16096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F695CD17267E110800D16096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F695CD1D267E118D00D16096 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F695CD14267E110800D16096 /* LaunchScreen.storyboard */,
 				F695CD17267E110800D16096 /* Info.plist */,
 				F695CD11267E110800D16096 /* Preview Content */,
+				F695CD1D267E118D00D16096 /* CircleImageView.swift */,
 			);
 			path = Tutorial_SwiftUI_Image;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F695CD1E267E118D00D16096 /* CircleImageView.swift in Sources */,
 				F695CD0A267E110700D16096 /* AppDelegate.swift in Sources */,
 				F695CD0C267E110700D16096 /* SceneDelegate.swift in Sources */,
 				F695CD0E267E110700D16096 /* ContentView.swift in Sources */,
